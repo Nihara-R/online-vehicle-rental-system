@@ -1,0 +1,87 @@
+@charset "ISO-8859-1";
+
+.signuph1{
+    margin-left: 180px;
+}
+.signupp{
+    margin-left: 75px;
+    width: 300px;
+}
+  .inputfield2[type=text], .inputfield2[type=password], .inputfield2[type=email] {
+    width: 400px;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+
+  .inputfield2[type=text]:focus, .inputfield2[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+
+  .cancelbtn2 {
+    padding: 14px 20px;
+    background-color: #f44336;
+    
+  }
+  
+
+  .cancelbtn2, .signupbtn2 {
+    float: left;
+    width: 420px;
+    height: 50px;
+    border:none;
+    margin: 5px;
+    font-weight: bolder;
+    font-size: 18px;
+    color: #fff;
+     }
+     .signupbtn2{
+        background:#60EE36;
+     }
+
+  .container2 {
+    padding: 16px;
+    width: 300px;
+    
+  }
+  
+
+  .modal2-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; 
+    border: 1px solid #888;
+    width:460px 
+  }
+ 
+  .close2 {
+    position: absolute;
+    right: 35px;
+    top: 70px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+  }
+  
+  .close2:hover,
+  .close2:focus {
+    color: #f44336;
+    cursor: pointer;
+  }
+  
+  
+  .clearfix2::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+
+  @media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+  }

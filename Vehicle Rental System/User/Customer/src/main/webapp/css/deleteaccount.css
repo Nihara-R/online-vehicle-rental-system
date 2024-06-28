@@ -1,0 +1,34 @@
+@charset "ISO-8859-1";
+
+.delete_account {
+    background-color: #f2f2f2;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    
+    text-align: center;
+    margin-left: 500px;
+    margin-top: 300px;
+}
+.delete{
+	border: none;
+	background: red ;
+	height: 40px;
+	color: #fff;
+	font-weight: bolder;
+	 border-radius: 5px;
+
+}
+.cancel {
+    width: 60px;
+    background: green;
+    height: 20px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px; 
+    margin-left: 10px; 
+}
